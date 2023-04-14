@@ -1,19 +1,19 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Node 18",
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Node 18",
 
-  "compilerOptions": {
-    "module": "CommonJS",
-    "target": "ES6",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
-    "outDir": "./dist",
-    "declaration": true
-  },
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES6",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "declaration": true
+    },
 
-  "include": ["src"],
-  "exclude": ["__tests__", "node_modules"]
+    "include": ["src"],
+    "exclude": ["__tests__", "node_modules"]
 }

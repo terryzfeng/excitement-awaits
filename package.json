@@ -1,43 +1,43 @@
 {
-  "name": "@terryzfeng/excitementawaits",
-  "version": "1.0.0",
-  "description": "excitement awaits~",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "test": "jest",
-    "build": "tsc",
-    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
-    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
-    "prepare": "npm run build",
-    "prepublish": "npm test && npm run lint",
-    "preversion": "npm run lisnt",
-    "version": "npm run format",
-    "postversion": "git push && git push --tags"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/terryzfeng/excitement-awaits.git"
-  },
-  "keywords": [],
-  "author": "terry feng",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/terryzfeng/excitement-awaits/issues"
-  },
-  "homepage": "https://github.com/terryzfeng/excitement-awaits#readme",
-  "devDependencies": {
-    "@types/jest": "^29.5.0",
-    "@typescript-eslint/eslint-plugin": "^5.58.0",
-    "@typescript-eslint/parser": "^5.58.0",
-    "eslint": "^8.38.0",
-    "eslint-config-prettier": "^8.8.0",
-    "jest": "^29.5.0",
-    "prettier": "^2.8.7",
-    "ts-jest": "^29.1.0",
-    "typescript": "^5.0.4"
-  },
-  "files": [
-    "dist"
-  ]
+    "name": "@terryzfeng/excitementawaits",
+    "version": "1.0.0",
+    "description": "excitement awaits~",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "test": "jest",
+        "build": "tsc",
+        "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
+        "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+        "prepare": "npm run build",
+        "prepublish": "npm test && npm run lint",
+        "preversion": "npm run lisnt",
+        "version": "npm run format",
+        "postversion": "git push && git push --tags"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/terryzfeng/excitement-awaits.git"
+    },
+    "keywords": [],
+    "author": "terry feng",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/terryzfeng/excitement-awaits/issues"
+    },
+    "homepage": "https://github.com/terryzfeng/excitement-awaits#readme",
+    "devDependencies": {
+        "@types/jest": "^29.5.0",
+        "@typescript-eslint/eslint-plugin": "^5.58.0",
+        "@typescript-eslint/parser": "^5.58.0",
+        "eslint": "^8.38.0",
+        "eslint-config-prettier": "^8.8.0",
+        "jest": "^29.5.0",
+        "prettier": "^2.8.7",
+        "ts-jest": "^29.1.0",
+        "typescript": "^5.0.4"
+    },
+    "files": [
+        "dist"
+    ]
 }
